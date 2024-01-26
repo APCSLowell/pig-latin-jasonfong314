@@ -73,3 +73,4 @@ if (sWord.charAt(0)=='q' && sWord.charAt(1)=='u') {
     return (sWord.substring (storeI) + sWord.substring (0, storeI)+ "ay");
   }
 }
+}
