@@ -1,4 +1,4 @@
-int storeI = 0;
+
 import java.io.File;  // Import the File class
 import java.io.FileNotFoundException;  // Import this class to handle errors
 import java.util.Scanner; // Import the Scanner class to read text files
@@ -28,6 +28,7 @@ public class PigLatin {
 	        System.out.println(pigLatin(lines[i]));
 	    }
     }
+	int storeI = 0;
     public int findFirstVowel(String sWord) {
       for (int i = 0; i<sWord.length(); i++) {
     if (sWord.substring(i, i+1).equals ("a")) {
